@@ -33,7 +33,7 @@
     position: relative;
     top: 150px;
 }*/
-
+  
   .project {
       padding: 25px;
       min-height: 200px;
@@ -45,6 +45,25 @@
 
   .project:nth-child(odd) {
     background-color: grey;
+  }
+
+  @media screen and (min-width: 720px){
+    .project-info{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+
+    }
+
+  }
+
+  .project-image {
+    flex-grow: 1;
+    flex-basis: 75px;
+  }
+  .project-detail {
+    flex-grow: 2;
   }
   
   
