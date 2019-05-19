@@ -60,7 +60,8 @@
 
   .project-image {
     flex-grow: 1;
-    flex-basis: 75px;
+    flex-basis: 150px;
+    padding: 25px;
   }
   .project-detail {
     flex-grow: 2;
