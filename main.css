@@ -3,12 +3,19 @@
   }
    
   body {
-    font-family: "Open Sans",
-    sans-serif; 
+    /*font-family: "Open Sans",
+    sans-serif; */
+    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    color: #444;
+    background-color: black;
+    color: white;
     line-height: 1.5;
   }
+  
+  h1{
+    color: #2EFE64;
+  }
+
 
  .top-nav{
     display: block;
@@ -18,7 +25,9 @@
     padding: 20px;
    }
 
-
+   ul{
+     list-style: none;
+   }
   section{
      display: flex;
      flex-direction: column;
@@ -28,6 +37,10 @@
      min-height: 150px;
      padding: 25px;
   }
+
+.basic-number {
+  color: #FF8000;
+}
 
 /*.section1 {
     position: relative;
@@ -39,12 +52,13 @@
       min-height: 200px;
   }
 
-  section:nth-child(even){
+  /*section:nth-child(even){
     background-color: #ddd;
   }
 
   .project:nth-child(odd) {
     background-color: grey;
+<<<<<<< HEAD
   }
 
   @media screen and (min-width: 720px){
@@ -66,6 +80,9 @@
   .project-detail {
     flex-grow: 2;
   }
+=======
+  }*/
+>>>>>>> feature/style
   
   
   
