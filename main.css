@@ -62,7 +62,10 @@
   .project-detail {
     flex-grow: 2;
   }
- 
+  
+  a:link {
+    color: white;
+  }
   
   /*section:nth-child(even){
     background-color: #ddd;
