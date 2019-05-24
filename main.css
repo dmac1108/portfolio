@@ -10,16 +10,28 @@
     line-height: 1.5;
   }
   
-  h1{
+  h1 {
+    color: #2EFE64;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:visited {
     color: #2EFE64;
   }
 
+  a:hover {
+    color: #FF8000;
+  }
+
+  a:link {
+    color: white;
+  }
 
  .top-nav{
     display: block;
-   /* top: 0;
-    left: 0;
-    z-index: 10;*/
     padding: 20px;
    }
 
@@ -36,15 +48,11 @@
      padding: 25px;
   }
 
-.basic-number {
+.basic-number{
   color: #FF8000;
 }
 
-/*.section1 {
-    position: relative;
-    top: 150px;
-}*/
-  
+ 
   .project {
       padding: 25px;
       min-height: 200px;
@@ -63,9 +71,9 @@
     flex-grow: 2;
   }
   
-  a:link {
-    color: white;
-  }
+  
+
+  
   
   /*section:nth-child(even){
     background-color: #ddd;
@@ -87,7 +95,7 @@
       width: 25%;
     }
    
-    .contact-detail {
+    .contact-detail, .about-me {
       margin-left: 25px;
    }
   
