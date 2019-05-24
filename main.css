@@ -103,6 +103,10 @@
 
 
   @media screen and (max-width: 720px){
+    body {
+      font-size: 16px;
+    }
+    
     .project-image {
       width: 50%;
     }
