@@ -16,6 +16,7 @@
   
   a {
     text-decoration: none;
+    word-wrap: break-word;
   }
   
   a:visited {
@@ -29,6 +30,8 @@
   a:link {
     color: white;
   }
+
+
 
  .top-nav{
     display: block;
@@ -96,12 +99,13 @@
 
     }
     .project-image, .add-image {
-      width: 25%;
+      width: 40%;
     }
    
-    .contact-detail, .about-me {
+    .contact-detail, .about-me, .contact-info {
       margin-left: 25px;
    }
+
    .more-images{
     flex-direction: row;
    }
@@ -121,6 +125,9 @@
       flex-direction: column;
       
      }
+     .contact-info, .contact-detail {
+      margin-left: 25px;
+    }
 
   }
 
