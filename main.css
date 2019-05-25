@@ -12,6 +12,8 @@
   
   h1 {
     color: #2EFE64;
+    margin-left: 0px;
+    padding: 0px;
   }
   
   a {
@@ -31,16 +33,15 @@
     color: white;
   }
 
-
-
  .top-nav{
     display: block;
-    padding: 20px;
+    /*padding: 20px;*/
    }
 
-   ul{
+  ul{
      list-style: none;
    }
+
   section, .contact-info{
      display: flex;
      flex-direction: column;
@@ -51,11 +52,9 @@
      /*padding: 25px;*/
   }
 
-
-
-.basic-number{
+  .basic-number{
   color: #FF8000;
-}
+  }
 
   .project {
       padding: 25px;
@@ -75,7 +74,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
- }
+  }
 
   .add-image{
     margin-bottom: 25px;
@@ -104,28 +103,27 @@
    
     .contact-detail, .about-me, .contact-info {
       margin-left: 25px;
-   }
+    }
 
-   .more-images{
+    .more-images{
     flex-direction: row;
-   }
+    }
   
   }
 
 
   @media screen and (max-width: 720px){
     body {
-      font-size: 16px;
+      font-size: 18px;
     }
-    
+
     .project-image, .add-image {
       width: 50%;
     }
     .more-images{
       flex-direction: column;
-      
-     }
-     .contact-info, .contact-detail {
+    }
+    .contact-info, .contact-detail {
       margin-left: 25px;
     }
 
