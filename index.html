@@ -6,6 +6,7 @@
    ">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="main.css" type="text/css">
+   
 </head>
 <body>
    
@@ -17,24 +18,25 @@
             <h1>Dawn McNeil</h1> 
             <nav role="navigation">
                 <ul>
-                <li><span class="basic-number">10 PRINT</span> "ABOUT ME"</li>
-                <li><span class="basic-number">20 PRINT</span> "MY RECENT PROJECTS"</li>
-                <li><span class="basic-number">30 PRINT</span>  "CONTACT ME"</li>
+                <li><a href="#about-me" class="scroll_to"><span class="basic-number">10 PRINT</span> "ABOUT ME"</a></li>
+                <li><a href="#recent-projects" class="scroll_to"><span class="basic-number">20 PRINT</span> "MY RECENT PROJECTS"</a></li>
+                <li><a href="#contact-me" class="scroll_to"><span class="basic-number">30 PRINT</span>  "CONTACT ME"</a></li>
                 </ul>
             </nav>
             </div>
         </header>
     
-        <section role="article" class="section1">
+        <section id="about-me"role="article" class="section1">
             <h2><span class="basic-number">10 PRINT</span> "ABOUT ME"</h2>
             <div class="about-me">
-            <p><span class="basic-number">10 PRINT</span> “I am a mechanical engineer who has had an interest in programming from the first bit of BASIC in elementary school (yes - I’m dating myself).”</p>
+            <p><span class="basic-number">10 PRINT</span> “I am a mechanical engineer who has been interested in programming from the first bit of BASIC in elementary school (yes - I’m dating myself).”</p>
             <p><span class="basic-number">20 PRINT</span> "I enjoy the challenge and excitement of getting a piece of code to work. “
             </p>
             <p><span class="basic-number">30 PRINT</span> “My programming experience has evolved from updating code to control electro-mechanical systems to creating customized solutions for business applications. “</p>
+            <p><span class="basic-number">40 PRINT</span> “When I'm not coding, you'll find me driving my daughter to gymnastics, on the golf course with the rest of the family, or on the ice, teaching my dedicated students the art of figure skating.“</p>
         </div>
         </section>
-        <section role="article">
+        <section id="recent-projects" role="article">
             <h2><span class="basic-number">20 PRINT</span> "MY RECENT PROJECTS"</h2>
             <div class="project">
                     <h3><span class="basic-number">10 PRINT</span> "HANDSTAND TIMER"</h3>
@@ -50,11 +52,19 @@
             </p>
             <p><span class="basic-number">40 PRINT</span> “Developed using SWIFT”
             </p>
-            <p><span class="basic-number">50 PRINT</span> “Click to see more images”
+            <p><span class="basic-number">50 PRINT </span><a href="#see-more" class="see-more">"Click to see more project images"</a>
             </p>
             </div>
             </div>
             </div>
+
+            <div id="see-more" class="more-images">
+                <img class="add-image white-border" src="./assets/hstimerwatch1.jpg" alt="Handstand Timer for iPhone Watch Image">
+                <img class="add-image white-border" src="./assets/hstimerphone.jpg" alt="Handstand Timer for iPhone Phone Image">
+                
+            </div>
+            <a href="" class="see-more">Hide Additional Project Images</a>
+
             <div class="project">
                 <h3><span class="basic-number">20 PRINT</span> "DIRTY DANCING QUIZ"</h3>
                 <div class="project-info">
@@ -70,13 +80,18 @@
             </p>
             <p><span class="basic-number">50 PRINT </span>"Github Repo <a href="https://github.com/dmac1108/quiz-app" target="_blank">https://github.com/dmac1108/quiz-app"</a>
             </p>
-            <p><span class="basic-number">60 PRINT</span> “Click to see more images”
-            </p>
+            <p><span class="basic-number">60 PRINT </span><a href="#see-more" class="see-more">"Click to see more project images"</a>
         </div>    
         </div>
             </div>
+
+            <div id="see-more" class="more-images">
+                    <img class="add-image white-border" src="./assets/DDquestion.png" alt="Dirty Dancing Quiz Question Image">
+                    <img class="add-image white-border" src="./assets/DDresponse.png" alt="Dirty Dancing Quiz Response Image">
+            </div>
+                <a href="" class="see-more">Hide Additional Project Images</a>
         </section>
-        <section role="article">
+        <section id="contact-me" role="article">
             <h2><span class="basic-number">30 PRINT</span> "CONTACT ME"</h2>
             <div class="contact-info">
             <h3><span class="basic-number">10 PRINT</span> “Email”
@@ -99,7 +114,8 @@
         </section>
 
 </main>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
 
 
 </body>
